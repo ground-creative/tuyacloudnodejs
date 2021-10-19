@@ -1,8 +1,9 @@
 {
   "name": "tuyacloudnodejs",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "tuay cloud nodejs api client",
-  "main": "TuyaCloud.js",
+  "main": "lib/TuyaCloud.js",
+  "author":"groundcreative",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/ifsale/tuyacloudnodejs/issues"
   },
-  "homepage": "https://github.com/ifsale/tuyacloudnodejs#readme"
+  "homepage": "https://github.com/ifsale/tuyacloudnodejs#readme" ,
+  "dependencies": {
+    "crypto": "~0.0.3" ,
+     "require": "~0.5.1"
+  }
 }
