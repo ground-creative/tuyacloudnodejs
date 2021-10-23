@@ -1,6 +1,6 @@
 # Tuya Cloud Api Nodejs Client
 
-This is a simple php client to interact with devices that support the tuya api over the cloud.
+This is a simple nodejs client to interact with devices that support the tuya api over the cloud.
 
 ## Installation
 
