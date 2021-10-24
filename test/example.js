@@ -1,10 +1,10 @@
-const TuyaCloud = require( 'tuyacloudnodejs' );
+const TuyaCloud = require( '../lib/TuyaCloud' );
 
 let Tuya = new TuyaCloud
 ( {
-	"secretKey" : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" ,
-	"accessKey" : "XXXXXXXXXXXXXXXXXXXX" ,
-	"server": "https://openapi.tuyaus.com"
+	"secretKey" 	: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" ,
+	"accessKey"	: "XXXXXXXXXXXXXXXXXXXX" ,
+	"server"		: "https://openapi.tuyaus.com"
 } );
 
 ( async function( )
